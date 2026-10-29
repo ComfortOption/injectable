@@ -1,4 +1,7 @@
 # ChangeLog
+## [3.1.3+build5] (ComfortOption fork)
+- Allow build 5 (needed by build_runner >=2.17.1)
+- Drop the optional lean_builder backend: lean_builder caps _fe_analyzer_shared <106, which blocks analyzer >=14.3
 ## [3.1.3]
 - Chore: update lean_builder to ^1.2.2
 ## [3.1.2]
